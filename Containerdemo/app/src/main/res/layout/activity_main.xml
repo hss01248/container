@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:columnCount="2"
+    android:layout_centerHorizontal="true"
+    tools:context=".MainActivity">
+
+   <Button
+       android:id="@+id/btn_rn"
+       android:text="打开rn"
+       android:onClick="rn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+    <Button
+    android:id="@+id/btn_flutter"
+    android:text="打开flutter"
+    android:onClick="flutter"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+
+</GridLayout>

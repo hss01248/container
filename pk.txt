@@ -1,0 +1,1 @@
+ react-native bundle --platform android --dev false --entry-file index.js --bundle-output Containerdemo/app/src/main/assets/index.android.bundle --assets-dest Containerdemo/app/src/main/res/

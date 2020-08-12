@@ -1,0 +1,3 @@
+
+include ':app', ':rnmodule'
+rootProject.name='Containerdemo'
